@@ -1,0 +1,55 @@
+<!--logs.wxml-->
+<view class="w700">
+	<view class="list" bindtap="intoPath" data-path="/pages/logs_store_details/logs_store_details">
+		<view class="ilblock list-img radiu15 flo-left">
+			<image src="../../images/home-img2.png"></image>
+		</view>
+		<view class="ilblock list-right flo-left">
+			<view class="overflow2 color1 font28 list-rightName">名称名名称名称名称名名称名称名称名</view>
+			<view class="overflow2 color2 font26 list-rightName" style="margin: 30rpx 0rpx 20rpx;">内容内容内容内容内容内容内容内容内容</view>
+			<view class="color4 font30">团购价 ￥56.00</view>
+			<view class="color41 font26" style="margin-top: 20rpx;">单价 ￥66.00</view>
+		</view>
+		<view style="clear: both; width: 100%;"></view>
+	</view>
+	<view class="list">
+		<view class="ilblock list-img radiu15 flo-left">
+			<image src="../../images/home-img2.png"></image>
+		</view>
+		<view class="ilblock list-right flo-left">
+			<view class="overflow2 color1 font28 list-rightName">名称名名称名称名称名名称名称名称名</view>
+			<view class="overflow2 color2 font26 list-rightName" style="margin: 30rpx 0rpx 20rpx;">内容内容内容内容内容内容内容内容内容</view>
+			<view class="color4 font30">团购价 ￥56.00</view>
+			<view class="color41 font26" style="margin-top: 20rpx;">单价 ￥66.00</view>
+		</view>
+		<view style="clear: both; width: 100%;"></view>
+	</view>
+</view>
+
+
+<view class="navbar">
+	<view class="navbar_item" bindtap="intoPathRedirect" data-path="/pages/index/index">
+		<view class="nav_img">
+			<image src="../../images/nabar1.png" style="width: 44rpx; height: 40rpx; position: relative;top: 5rpx;"></image>
+		</view>
+		<view class="text">首页</view>
+	</view>
+	<view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/classify/classify">
+		<view class="nav_img">
+			<image src="../../images/nabar2.png"></image>
+		</view>
+		<view class="text">分类</view>
+	</view>
+	<view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/logs/logs">
+		<view class="nav_img this-img">
+			<image src="../../images/nabar3-a.png" style="width: 44rpx;"></image>
+		</view>
+		<view class="text this-text">拼团</view>
+	</view>
+	<view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/user/user">
+		<view class="nav_img">
+			<image src="../../images/nabar4.png" style="height: 40rpx;"></image>
+		</view>
+		<view class="text">我的</view>
+	</view>
+</view>

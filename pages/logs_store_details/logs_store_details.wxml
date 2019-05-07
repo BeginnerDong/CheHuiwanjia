@@ -1,0 +1,150 @@
+<view class="top hiden">
+	<image src="../../images/details-img.png"></image>
+</view>
+<view class="top-text color1 font30">
+	永生花永生花永生花
+	<view class="flo-right ilblock share radiu40 bg2 color3 font20">
+		<image src="../../images/details-icon1.png" style="width: 20rpx; height: 20rpx;position: relative;top: 4rpx;left: -10rpx;"></image>
+		分享
+	</view>
+</view>
+<view class="top-text color2 font26 overflow2" style="height: 66rpx; padding-right: 30rpx; margin-bottom: 20rpx;">
+	内容内容内容内容内容内容内容内容内容内容内容内容内容内容容内容内容内容内容内容内容容
+</view>
+<view class="top-text color4 font30" style="margin-bottom: 20rpx;">
+	团购价￥56.00<text class="color41 font26" style="margin-left: 30rpx;">单价：￥66.00</text>
+</view>
+<view class="bg2" style="width: 100%;height: 20rpx;"></view>
+<view class="w700" style="padding-bottom: 30rpx;">
+	<view class="bag">
+		<view class="bagtext ilblock color1 font30">45人正在拼团，可直接参与</view>
+		<view class="more ilblock color3" bindtap="intoPath" data-path="/pages/subscribe_a/subscribe_a" style="background: url(../../images/home-icon2.png) no-repeat 110rpx 31rpx;background-size: 10%; ">查看更多</view>
+	</view>
+	<view class="bag-list">
+		<view class="ilblock radiu50 hiden bag-listimg">
+			<image src="../../images/about-img.png"></image>
+		</view>
+		<view class="ilblock color2 font26 overflow1" style="position: relative;top: -28rpx; left: 20rpx;width: 40%;">名称名称</view>
+		<view class="ilblock" style="width: 25%; margin-left: 20rpx; text-align: center;position: relative;top: -18rpx;">
+			<view class="color1 font26">还差<text class="color4">1</text>人拼成</view>
+			<view class="color3 font20">剩余23:23:48</view>
+		</view>
+		<view class="ilblock flo-right bg3 radiu15 color5 font20" style="width: 16%;height: 50rpx; line-height: 50rpx;text-align: center;position: absolute; top: 16rpx; right: 0rpx;">去拼单</view>
+	</view>
+	<view class="bag-list">
+		<view class="ilblock radiu50 hiden bag-listimg">
+			<image src="../../images/about-img.png"></image>
+		</view>
+		<view class="ilblock color2 font26 overflow1" style="position: relative;top: -28rpx; left: 20rpx;width: 40%;">名称名称</view>
+		<view class="ilblock" style="width: 25%; margin-left: 20rpx; text-align: center;position: relative;top: -18rpx;">
+			<view class="color1 font26">还差<text class="color4">1</text>人拼成</view>
+			<view class="color3 font20">剩余23:23:48</view>
+		</view>
+		<view class="ilblock flo-right bg3 radiu15 color5 font20" style="width: 16%;height: 50rpx; line-height: 50rpx;text-align: center;position: absolute; top: 16rpx; right: 0rpx;">去拼单</view>
+	</view>
+</view>
+<view class="bg2" style="width: 100%;height: 20rpx;"></view>
+<view class="top-text color1 font30">
+	商品详情
+</view>
+<view class="top-text color2 font26" style="padding-right: 30rpx; margin-bottom: 30rpx;">
+	内容内容内容内容内容内容内容内容内容内容内容内容内容内容容内容内容内容内容容内容内容内容内容
+</view>
+<view class="middle-img hiden hiden radiu15">
+	<image src="../../images/details-img.png"></image>
+</view>
+<view class="top-text color2 font26" style="padding-right: 30rpx; margin-bottom: 30rpx;">
+	内容内容内容内容内容内容内容内容内容内容内容内容内容内容容内容内容内容内容容内容内容内容内容
+</view>
+<view class="top-text color2 font26" style="padding-right: 30rpx; margin-bottom: 30rpx;">
+	内容内容内容内容内容内容内容内容内容内容内容内容内容内容容内容内容内容内容容内容内容内容内容
+</view>
+<view class="bg2" style="width: 100%;height: 20rpx;"></view>
+<view class="w700">
+	<view class="bag">
+		<view class="bagtext ilblock color1 font30">商品评价</view>
+		<view class="more ilblock color3" bindtap="intoPath" data-path="/pages/subscribe_a/subscribe_a" style="background: url(../../images/home-icon2.png) no-repeat 110rpx 31rpx;background-size: 10%; ">查看更多</view>
+	</view>
+	<view class="list_item">
+		<view>
+			<view class="ilblock itemimg radiu50 hiden">
+				<image src="../../images/about-img.png"></image>
+			</view>
+			<view class="ilblock" style="margin-left: 20rpx; line-height: 40rpx;position: relative;top: -14rpx;">
+				<view class="color2 font24">昵称昵称昵称</view>
+				<view class="color3 font20">2019.02.23 15:09</view>
+			</view>
+		</view>
+		<view class="color1 font28" style="margin: 18rpx 0rpx;">标题标题标题标题标题</view>
+		<view class="color2 font24 overflow3" style="margin-bottom: 30rpx;">内容内容内容内容内容内容内容内容内容内容内容内容内容内容容内容内容内容内容容内容内容内
+		内容内容内容内容内容内容内容内容容内容容内容内容内容内容容内容</view>
+	</view>
+	
+	<view class="list_item" style="border: none;">
+		<view>
+			<view class="ilblock itemimg radiu50 hiden">
+				<image src="../../images/about-img.png"></image>
+			</view>
+			<view class="ilblock" style="margin-left: 20rpx; line-height: 40rpx;position: relative;top: -14rpx;">
+				<view class="color2 font24">昵称昵称昵称</view>
+				<view class="color3 font20">2019.02.23 15:09</view>
+			</view>
+		</view>
+		<view class="color1 font28" style="margin: 18rpx 0rpx;">标题标题标题标题标题</view>
+		<view class="color2 font24 overflow3" style="margin-bottom: 30rpx;">内容内容内容内容内容内容内容内容内容内容内容内容内容内容容内容内容内容内容容内容内容内
+		内容内容内容内容内容内容内容内容容内容容内容内容内容内容容内容</view>
+	</view>
+</view>
+<view style="width: 100%; height: 100rpx;"></view>
+<view class="buy">
+	<view class="radiu40 font30 color5 hiden flo-right" style="height: 70rpx; width:500rpx;margin-right: 30rpx;margin-top: 10rpx;">
+		<view class="ilblock flo-left bg5"style="width: 50%; height: 100%; text-align: center; line-height: 70rpx;">加入购物车</view>
+		<view class="ilblock bg3 flo-left" style="width:50%;height: 100%; text-align: center; line-height: 70rpx;" bindtap="show">立即购买</view>
+	</view>
+</view>
+<view class="big-buybox" wx:if="{{is_show}}">
+	<view class="big-buybtm bg1">
+		<image src="../../images/details-icon1%20(2).png" style="width: 36rpx; height: 36rpx;float: right;margin: 30rpx;" bindtap="show"></image>
+		<view class="buybtm-img ilblock radiu15 hiden flo-left">
+			<image src="../../images/home-img3.png"></image>
+		</view>
+		<view class="ilblock flo-left">
+			<view class="color1 font30"style="margin-top: 60rpx;">永生花永生花永生花</view>
+			<view class="color4 font30"style="margin-top: 30rpx;">团购价￥56.00</view>
+			<view class="color41 font26"style="margin-top: 20rpx;">单价：￥66.00</view>
+		</view>
+		<view class="color1 font28" style="clear: both;margin-left: 30rpx; margin-bottom: 20rpx;">规格</view>
+		<view>
+			<view class="ilblock buybtm-norms norms-star font26 color3">5斤装</view>
+			<view class="ilblock buybtm-norms font26 color3">3斤装</view>
+			<view class="ilblock buybtm-norms font26 color3">2斤装</view>
+		</view>
+		<view class="list">
+			<view class="color1 font26 ilblock">
+				购买数量：
+			</view>
+			<view class="color1 font12 ilblock flo-right">
+				<view class="ilblock list-item">-</view>
+				<view class="ilblock list-item">1</view>
+				<view class="ilblock list-item">+</view>
+			</view>
+				<button class="bg3" style="margin-top: 200rpx;"bindtap="intoPathRedirect" data-path="/pages/oder-true_c/oder-true_c">确定</button>	
+		</view>
+	</view>
+</view>
+<view class="piece">
+	<view class="big_box bg1">
+		<image src="../../images/details-icon1%20(2).png" style="width: 36rpx; height: 36rpx;float: right;margin: 30rpx;" bindtap="show"></image>
+		<view class="color1 font28 overflow1" style="width: 86%;margin-left: 7%; text-align: center; position: relative; top: -30rpx;">参与名称名称的拼单</view>
+		<view class="color3 font26" style="width: 90%; text-align: center;margin-left: 5%;">还剩1个名额。23:23:56后结束</view>
+		<view class="img_box">
+			<view class="radiu50 ilblock flo-left hiden" style="width: 100rpx; height: 100rpx;">
+				<image src="../../images/about-img.png"></image>
+			</view>
+			<view class="radiu50 ilblock flo-right hiden" style="width: 100rpx; height: 100rpx;">
+				<image src="../../images/details-icon2.png"></image>
+			</view>
+		</view>
+		<button class="radiu15 bg3 color5 font26" style="width: 90%;margin-left: 5%; height: 70rpx;margin-top:35rpx;" bindtap="intoPathRedirect" data-path="/pages/oder-true_c/oder-true_c">去拼单</button>
+	</view>
+</view>

@@ -1,0 +1,30 @@
+<view class="w700">
+	<view class="list" bindtap="intoPath" data-path="/pages/index_store_details/index_store_details">
+		<view class="ilblock list-img radiu15 flo-left">
+			<image src="../../images/home-img2.png"></image>
+		</view>
+		<view class="ilblock list-right flo-left">
+			<view class="overflow2 color1 font28 list-rightName">名称名名称名称名称名名称名称名称名</view>
+			<view class="overflow2 color2 font26 list-rightName" style="margin: 30rpx 0rpx 40rpx;">内容内容内容内容内容内容内容内容内容</view>
+			<view>
+				<view class="ilblock color4 font28">￥56.00</view>
+				<view class="ilblock color41 font26" style="margin-left: 20rpx;text-decoration: line-through;">￥66.00</view>
+			</view>
+		</view>
+		<view style="clear: both; width: 100%;"></view>
+	</view>
+	<view class="list" style="border: none;" bindtap="intoPath" data-path="/pages/index_store_details/index_store_details">
+		<view class="ilblock list-img radiu15 flo-left">
+			<image src="../../images/home-img2.png"></image>
+		</view>
+		<view class="ilblock list-right flo-left">
+			<view class="overflow2 color1 font28 list-rightName">名称名名称名称名称名名称名称名称名</view>
+			<view class="overflow2 color2 font26 list-rightName" style="margin: 30rpx 0rpx 40rpx;">内容内容内容内容内容内容内容内容内容</view>
+			<view>
+				<view class="ilblock color4 font28">￥56.00</view>
+				<view class="ilblock color41 font26" style="margin-left: 20rpx;text-decoration: line-through;">￥66.00</view>
+			</view>
+		</view>
+		<view style="clear: both; width: 100%;"></view>
+	</view>
+</view>

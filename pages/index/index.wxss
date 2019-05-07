@@ -1,0 +1,144 @@
+/**index.wxss**/
+/* page{
+	background: #F2F2F2;
+} */
+.page-section{
+	border-top: solid 1rpx #E1E1E1;
+	width: 100%;
+	height: 700rpx;
+}
+.banner{
+	/* border: solid 1rpx black; */
+	margin-top: 30rpx;
+	height: 360rpx;
+}
+.search{
+	width: 88%;
+	height: 70rpx;
+	border: solid 1rpx #E7E7E7;
+	margin: 0 auto;
+	box-shadow: 0rpx 0rpx 5rpx #E7E7E7;
+	position: relative;
+	top: -35rpx;
+}
+.search image{
+	width: 36rpx;
+	height:36rpx;
+	position: relative;
+	top: 2rpx;
+	left: 30rpx;
+}
+.search input{
+	margin-left: 40rpx;
+	position: relative;
+	top: 10rpx;
+}
+
+
+/* -----------------------------今日爆款 */
+.bag{
+	width: 100%;
+	height: 80rpx;
+}
+.bagtext{
+	line-height: 80rpx;
+}
+.more{
+	font-size: 24rpx;
+	float: right;
+	width: 19%;
+	line-height: 85rpx;
+}
+.list{
+	border-bottom: solid 1rpx #E4E4E4;
+	padding-top: 30rpx;
+	padding-bottom: 30rpx;
+}
+.list-img{
+	width:42.5%;
+	height: 300rpx;
+	overflow: hidden;
+	/* border: solid 1rpx red; */
+}
+.list-img image{
+	width: 296rpx;
+	height: 300rpx;
+}
+.list-right{
+	width: 48.5%;
+	/* border: solid 1rpx red; */
+	padding:10rpx 30rpx;
+	margin: 0;
+}
+.list-rightName{
+	/* border: solid 1rpx red; */
+	height: 75rpx;
+}
+
+.list_two{
+	/* border: solid 1rpx red; */
+	width:44.5%;
+	height:596rpx;
+	overflow: hidden;
+	margin-top: 30rpx;
+	margin-left: 28rpx;
+}
+.two_top{
+	/* border: solid 1rpx red; */
+	width:100%;
+	height:336rpx;
+}
+.two_top image{
+	width:100%;
+	height:336rpx;
+}
+.two_btm{
+	/* border: solid 1rpx red; */
+	padding:4%;
+}
+.two_btmText{
+	width: 100%;
+	height: 70rpx;
+	margin-top: 10rpx;
+}
+
+.btmbox{
+	box-shadow: 0rpx 0rpx 20rpx #DEDEDE;
+	width: 92%;
+	padding: 30rpx 0rpx;
+}
+.btmimg{
+	/* border: solid 1rpx red; */
+	height: 80rpx;
+}
+.btmimg-item{
+	/* border: solid 1rpx red; */
+	height: 80rpx;
+	width: 80rpx;
+	margin-left: 20rpx;
+	display: inline-block;
+}
+.btmimg-item image{
+	height: 80rpx;
+	width: 80rpx;
+}
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+.this-img image{
+	width: 80rpx;
+	height:78rpx;
+	position: relative;
+	top: -25rpx;
+	left: -6rpx;
+}

@@ -1,0 +1,25 @@
+.list{
+	border-bottom: solid 1rpx #E4E4E4;
+	padding-top: 30rpx;
+	padding-bottom: 30rpx;
+}
+.list-img{
+	width:42.5%;
+	height: 300rpx;
+	overflow: hidden;
+	/* border: solid 1rpx red; */
+}
+.list-img image{
+	width: 296rpx;
+	height: 300rpx;
+}
+.list-right{
+	width: 48.5%;
+	/* border: solid 1rpx red; */
+	padding:10rpx 30rpx;
+	margin: 0;
+}
+.list-rightName{
+	/* border: solid 1rpx red; */
+	height: 75rpx;
+}

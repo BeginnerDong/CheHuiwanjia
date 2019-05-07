@@ -1,0 +1,139 @@
+<!--index.wxml-->
+<!-- <view class="page-section"> -->
+	<view class="w700 banner bg1">
+			<swiper style="height: 100%;">
+				<swiper-item>
+					<image src="../../images/home-img1.png" style="width: 100%; height:360rpx;"></image>
+				</swiper-item>
+			</swiper>
+	</view>
+	<view class="w700 bg1">
+			<view class="search radiu40 bg1">
+				<image src="../../images/home-icon1.png"></image>
+				<input class="ilblock" />
+				<view class="ilblock color3 font24" style="margin-left: 15rpx;position: relative; top: -10rpx;">搜索</view>
+			</view>
+	</view>
+	<view class="w700">
+		<view class="bag">
+			<view class="bagtext ilblock color6 font30">今日爆款</view>
+			<view class="more ilblock color3" bindtap="intoPath" data-path="/pages/subscribe_a/subscribe_a" style="background: url(../../images/home-icon2.png) no-repeat 110rpx 31rpx;background-size: 10%; ">查看更多</view>
+		</view>
+		<view class="list" bindtap="intoPath" data-path="/pages/index_store_details/index_store_details">
+			<view class="ilblock list-img radiu15 flo-left">
+				<image src="../../images/home-img2.png"></image>
+			</view>
+			<view class="ilblock list-right flo-left">
+				<view class="overflow2 color1 font28 list-rightName">名称名名称名称名称名名称名称名称名</view>
+				<view class="overflow2 color2 font26 list-rightName" style="margin: 30rpx 0rpx 40rpx;">内容内容内容内容内容内容内容内容内容</view>
+				<view>
+					<view class="ilblock color4 font28">￥56.00</view>
+					<view class="ilblock color41 font26" style="margin-left: 20rpx;text-decoration: line-through;">￥66.00</view>
+				</view>
+			</view>
+			<view style="clear: both; width: 100%;"></view>
+		</view>
+		<view class="list" style="border: none;" bindtap="intoPath" data-path="/pages/index_store_details/index_store_details">
+			<view class="ilblock list-img radiu15 flo-left">
+				<image src="../../images/home-img2.png"></image>
+			</view>
+			<view class="ilblock list-right flo-left">
+				<view class="overflow2 color1 font28 list-rightName">名称名名称名称名称名名称名称名称名</view>
+				<view class="overflow2 color2 font26 list-rightName" style="margin: 30rpx 0rpx 40rpx;">内容内容内容内容内容内容内容内容内容</view>
+				<view>
+					<view class="ilblock color4 font28">￥56.00</view>
+					<view class="ilblock color41 font26" style="margin-left: 20rpx;text-decoration: line-through;">￥66.00</view>
+				</view>
+			</view>
+			<view style="clear: both; width: 100%;"></view>
+		</view>
+	</view>
+	<view class="bg2"style="height: 20rpx; width: 100%;"></view>
+	<view class="w700">
+		<view class="bag">
+			<view class="bagtext ilblock color6 font30">生鲜专区</view>
+			<view class="more ilblock color3" bindtap="intoPath" data-path="/pages/classify/classify" style="background: url(../../images/home-icon2.png) no-repeat 110rpx 31rpx;background-size: 10%; ">查看更多</view>
+		</view>
+	</view>
+	<view class="bg2" style="width: 100%;">
+		<view class="list_two bg1 radiu15 ilblock flo-left" bindtap="intoPath" data-path="/pages/integral_store/integral_store">
+			<view class="two_top">
+				<image src="../../images/home-img3.png"></image>
+			</view>
+			<view class="two_btm">
+				<view class="color1 font28 overflow1">名称名称名称名称</view>
+				<view class="color2 font26 two_btmText overflow2">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</view>
+				<view class="color4 font26" style="margin-top: 10rpx;">￥56.00 / 积分：52.00</view>
+				<view class="color41 font26" style="text-decoration: line-through;">￥66.00</view>
+			</view>
+		</view>
+		<view class="list_two bg1 radiu15 ilblock flo-left" bindtap="intoPath" data-path="/pages/integral_store/integral_store">
+			<view class="two_top">
+				<image src="../../images/home-img3.png"></image>
+			</view>
+			<view class="two_btm">
+				<view class="color1 font28 overflow1">名称名称名称名称</view>
+				<view class="color2 font26 two_btmText overflow2">内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</view>
+				<view class="color4 font26" style="margin-top: 10rpx;">￥56.00 / 积分：52.00</view>
+				<view class="color41 font26" style="text-decoration: line-through;">￥66.00</view>
+			</view>
+		</view>
+		<view class="bg2" style="clear: both; width: 100%; height: 30rpx;"></view>
+	</view>
+	<view class="bg1" style="width: 100%;padding:50rpx 30rpx;margin-bottom: 120rpx;">
+		<view class="radiu15 btmbox">
+			<view class="color1 font26" style="margin: 30rpx;">已有56人成为团长</view>
+			<view class="btmimg">
+				<view class="btmimg-item radiu50 hiden">
+					<image src="../../images/home-img4.png"></image>
+				</view>
+				<view class="btmimg-item radiu50 hiden">
+					<image src="../../images/home-img4.png"></image>
+				</view>
+				<view class="btmimg-item radiu50 hiden">
+					<image src="../../images/home-img4.png"></image>
+				</view>
+				<view class="btmimg-item radiu50 hiden">
+					<image src="../../images/home-img4.png"></image>
+				</view>
+				<view class="btmimg-item radiu50 hiden">
+					<image src="../../images/home-img4.png"></image>
+				</view>
+				<view class="btmimg-item radiu50 hiden">
+					<image src="../../images/home-img4.png"></image>
+				</view>
+				<view class="ilblock" style="height: 100%;">
+					<image src="../../images/home-icon2.png" style="width: 16rpx; height: 30rpx;position: relative;top: -25rpx; left: 30rpx;"></image>
+				</view>
+			</view>
+			<view class="color6 font28" style="text-align: center;margin-top: 30rpx;">预计每年分红12000元</view>
+		</view>
+	</view>	
+		
+	<view class="navbar">
+		<view class="navbar_item" >
+			<view class="nav_img this-img">
+				<image src="../../images/nabar1-a.png"></image>
+			</view>
+			<view class="text this-text">首页</view>
+		</view>
+		<view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/classify/classify">
+			<view class="nav_img">
+				<image src="../../images/nabar2.png"></image>
+			</view>
+			<view class="text">分类</view>
+		</view>
+		<view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/logs/logs">
+			<view class="nav_img">
+				<image src="../../images/nabar3.png" style="width: 44rpx;"></image>
+			</view>
+			<view class="text">拼团</view>
+		</view>
+		<view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/user/user">
+			<view class="nav_img">
+				<image src="../../images/nabar4.png" style="height: 40rpx;"></image>
+			</view>
+			<view class="text">我的</view>
+		</view>
+	</view>
+<!-- </view> -->

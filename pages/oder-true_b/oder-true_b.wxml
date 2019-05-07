@@ -1,0 +1,38 @@
+
+	<view class="big-buybtm bg1">
+		<view class="buybtm-img ilblock radiu15 hiden flo-left">
+			<image src="../../images/home-img3.png"></image>
+		</view>
+		<view class="ilblock flo-left">
+			<view class="color1 font26"style="margin-top: 60rpx;">永生花永生花永生花</view>
+			<view class="buybtm-norms norms-star font24 color3">5斤装</view>
+			<view class="color4 font26"style="margin-top: 30rpx;">积分：56.00</view>
+		</view>
+		<view class="list" style="clear: both;padding-top: 10rpx;" bindtap="intoPathRedirect" data-path="/pages/address/address">
+			<view class="color1 font26 ilblock flo-left" >
+				取货点
+			</view>
+			<view class="ilblock font22 color3" style="margin-left: 30rpx;position: relative;top: -6rpx;">
+				陕西省西安市雁塔区高新大都会
+			</view>
+			<view class="ilblock flo-right" style="margin-top: 20rpx;">
+				<image src="../../images/home-icon5.png" style="width: 14rpx; height: 24rpx;"></image>
+			</view>
+		</view>
+		<view class="list" style="margin-top: 0rpx;">
+			<view class="color1 font26 ilblock">
+				购买数量：
+			</view>
+			<view class="color1 font12 ilblock flo-right">
+				<view class="ilblock list-item">-</view>
+				<view class="ilblock list-item">1</view>
+				<view class="ilblock list-item">+</view>
+			</view>
+		</view>
+	</view>
+	<view class="oder-btm bg1">
+		<view class="oder-btmbox flo-right" style="line-height: 100rpx;">
+			<view class="ilblock color1 font26">合计：<text class="color4">￥56.00</text></view>
+			<view class="color5 bg3 radiu40 ilblock font26" style="width: 190rpx; height: 74rpx; line-height: 80rpx;text-align: center;margin-left: 15rpx;">立即购买</view>
+		</view>
+	</view>
