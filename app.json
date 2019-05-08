@@ -1,8 +1,6 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/flower_bag/flower_bag",
-    "pages/flower_bag_buy/flower_bag_buy",
 		"pages/index_store_details/index_store_details",
 		"pages/oder-true/oder-true",
 		"pages/oder-true_b/oder-true_b",
@@ -16,12 +14,33 @@
 		"pages/logs_store_details/logs_store_details",
 		"pages/classify/classify",
 		"pages/user/user",
+		"pages/right/right",
+		"pages/message/message",
 		"pages/myscore/myscore",
-		"pages/myflowerbag/myflowerbag",
 		"pages/feedback/feedback",
 		"pages/suggestion/suggestion",
 		"pages/allOder/allOder",
-		"pages/car/car"
+		"pages/car/car",
+		"pages/car-true/car-true",
+		"pages/login/login",
+		"pages/floor/floor",
+		"pages/login_c/login_c",
+		"pages/team_a/team_a",
+		"pages/income_a/income_a",
+		"pages/money/money",
+		"pages/bind_card/bind_card",
+		"pages/money_b/money_b",
+		"pages/two_code/two_code",
+		"pages/team_floor/team_floor",
+		"pages/two_code_floor/two_code_floor",
+		"pages/driver/driver",
+		"pages/driver_oder/driver_oder",
+		"pages/drive_allOder/drive_allOder",
+		"pages/driver_mesag/driver_mesag",
+		"pages/requisition/requisition",
+		"pages/requisition_floor/requisition_floor"
+		
+		
   ],
   "window":{
     "backgroundTextStyle":"light",

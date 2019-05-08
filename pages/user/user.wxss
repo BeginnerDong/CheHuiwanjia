@@ -43,7 +43,7 @@ page{
 .list_item{
 	width: 24%;
 	/* border: solid 1rpx red; */
-	height: 180rpx;
+	height: 170rpx;
 	display: inline-block;
 	float: left;
 	text-align: center;
@@ -69,60 +69,31 @@ page{
 }
 .list2 .list_item{
 	width: 33%;
-	padding-bottom: 20rpx;
-	}
+}
 .list2 	.list_itemimg{
-	margin:20% 39%;
+	margin:15% 39% 10%;
 }
-/* .list{
-	border-bottom: solid 1rpx #F2F2F2;
-	padding-left: 30rpx;
-	padding-right: 30rpx;
-	height: 80rpx;
-	line-height: 80rpx;
-}
-.cherose{
-	width: 100%;
-	height:160rpx ;
-}
-.cherose-item{
-	width: 20%;
-	height: 100%;
-	text-align: center;
-}
-.cherose-itemimg{
-	width: 50rpx;
-	height: 50rpx;
-	overflow: hidden;
-	margin: 20% 33%;
-}
-.cherose-itemimg image{
-	width: 50rpx;
-	height: 50rpx;
-}
-.listimg{
-	height: 100%;
-	width: 60rpx;
-	}
 
-.listimg image{
-	height: 35rpx;
-	width: 33rpx;
-	position:relative;
-	top: 10rpx;
+	
+.this-img image{
+	width: 80rpx !important;
+	height:80rpx !important;
+	position: relative;
+	top: -26rpx;
+	left: -6rpx;
 }
-	
-	
-	 */
-	
-	
-	
-	
-	.this-img image{
-		width: 80rpx !important;
-		height:80rpx !important;
-		position: relative;
-		top: -26rpx;
-		left: -6rpx;
-	}
+
+.secceed{
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+	top: 0rpx;
+}
+.secceed .text{
+	text-align: center;
+	position: relative;
+	top: 70%;
+}
 	

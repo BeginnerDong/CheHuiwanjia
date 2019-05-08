@@ -1,0 +1,3 @@
+<view class="box" style="background: url(../../images/img3.png) no-repeat;background-size: 100%;">
+	<button class="bg3 color5 font26 radiu40">保存到本地</button>
+</view>

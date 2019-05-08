@@ -1,0 +1,17 @@
+<view class="top bg1 font26 color3">
+	图像<view class="ilblock flo-right head radiu50">
+		<image src="../../images/about-img.png"></image>
+	</view>
+	<image src="../../images/icon2.png" style="width: 20rpx;height: 20rpx; position: absolute; top: 24rpx;right: 32rpx;"></image>
+</view>
+<view class="list bg1">
+	<view class="ilblock color3 font26">昵称</view>
+	<view  class="ilblock color2 font28" style="margin-left: 40rpx;">昵称昵称</view>
+</view>
+<view class="list bg1">
+	<view class="ilblock color3 font26">电话</view>
+	<view  class="ilblock color2 font28" style="margin-left: 40rpx;">15612345687</view>
+</view>
+
+
+<button class="bg3 radiu40 font24 color5" style="line-height: 60rpx;" type="button">提交</button>

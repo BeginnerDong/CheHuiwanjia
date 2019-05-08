@@ -1,0 +1,17 @@
+<view class="top bg1 radiu15 font30" bindtap="intoPathRedirect" data-path="/pages/bind_card/bind_card">
+	去绑定银行卡
+	<view class="ilblock flo-right">
+		<image src="../../images/home-icon2.png" style="width: 13rpx;height: 23rpx;"></image>
+	</view>
+</view>
+<view class="btm bg1">
+	<view class="color1 font28">提现金额</view>
+	<view class="list"><text class="color1" style="font-size: 60rpx; position: relative; top: -20rpx;">￥</text>
+		<input class="ilblock" style="height: 100%;width: 80%; " />
+	</view>
+	<view class="font22">
+		<view class="ilblock color3">本次可提现￥200.00 ！</view>
+		<view class="ilblock color6 flo-right">全部提现</view>
+	</view>
+	<button class="color5 bg3 radiu40 font26" style="margin:90rpx 10rpx 50rpx;height: 70rpx;">提现</button>
+</view>

@@ -1,0 +1,15 @@
+<view class="bag">
+	<view class="ilblock box flo-left" bindtap="intoPathRedirect" data-path="/pages/team_floor/team_floor">
+		<image src="../../images/there-icon1.png"></image>
+		<view class="color2 font28 text">我的团队</view>
+	</view>
+	<view class="ilblock box flo-right" bindtap="intoPathRedirect" data-path="/pages/income_a/income_a">
+		<image src="../../images/there-icon2.png" style="width:75rpx;margin-left: 95rpx;"></image>
+		<view class="color2 font28 text">我的收益</view>
+	</view>
+	<view class="ilblock box" style="clear: both; margin: 60rpx 27%;" bindtap="intoPathRedirect" data-path="/pages/two_code_floor/two_code_floor">
+		<image src="../../images/there-icon3.png" style="width:75rpx;margin-left: 95rpx;"></image>
+		<view class="color2 font28 text">我的推广码</view>
+	</view>
+</view>
+

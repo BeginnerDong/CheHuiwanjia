@@ -1,0 +1,36 @@
+<view class="bg1">
+<view class="list flo-left">
+	<view class="ilblock img radiu50 hiden">
+		<image src="../../images/about-img.png"></image>
+	</view>
+	<view class="text color1 font28 ilblock overflow1">
+		名称名称
+	</view>
+</view>
+<view class="list flo-left">
+	<view class="ilblock img radiu50 hiden">
+		<image src="../../images/about-img.png"></image>
+	</view>
+	<view class="text color1 font28 ilblock overflow1">
+		名称名称
+	</view>
+</view>
+<view class="list flo-left">
+	<view class="ilblock img radiu50 hiden">
+		<image src="../../images/about-img.png"></image>
+	</view>
+	<view class="text color1 font28 ilblock overflow1">
+		名称名称
+	</view>
+</view>
+<view class="list flo-left">
+	<view class="ilblock img radiu50 hiden">
+		<image src="../../images/about-img.png"></image>
+	</view>
+	<view class="text color1 font28 ilblock overflow1">
+		名称名称
+	</view>
+</view>
+	
+	<view style="clear: both; width: 100%;"></view>
+</view>

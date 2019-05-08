@@ -1,0 +1,7 @@
+<view class="flex" style="width:100%;height:90vh">
+    <view class="poster">
+		<view class="poster-texta">店铺名称名称</view>
+        <image src="../../images/img2.png"></image>
+        <view class="font30 color7" class="poster-textb">保存到本地</view>
+    </view>
+</view>

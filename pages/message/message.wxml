@@ -1,0 +1,39 @@
+<view class="bg1">
+	<view class="box w700">
+		<view class="tiele color1 font28">
+			标题标题标题标题标题标题标题标题标题标题
+		</view>
+		<view class="text color2 font26">
+			内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容
+		</view>
+		<view class="time color3 font22">
+			2019-04-19
+		</view>
+	</view>
+</view>
+<view class="bg1">
+	<view class="box w700">
+		<view class="tiele color1 font28">
+			标题标题标题标题标题标题标题标题标题标题
+		</view>
+		<view class="text color2 font26">
+			内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容
+		</view>
+		<view class="time color3 font22">
+			2019-04-19
+		</view>
+	</view>
+</view>
+<view class="bg1">
+	<view class="box w700">
+		<view class="tiele color1 font28">
+			标题标题标题标题标题标题标题标题标题标题
+		</view>
+		<view class="text color2 font26">
+			内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容
+		</view>
+		<view class="time color3 font22">
+			2019-04-19
+		</view>
+	</view>
+</view>

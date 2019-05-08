@@ -1,0 +1,35 @@
+page{
+	background: #F2F2F2;
+}
+.top{
+	height: 130rpx;
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 30rpx;
+	padding-right: 30rpx;
+	line-height: 130rpx;
+	position: relative;
+}
+.head{
+	height: 80rpx;
+	width: 80rpx;
+	margin-top: 25rpx;
+}
+.head image{
+	height: 80rpx;
+	width: 80rpx;
+	overflow: hidden;
+}
+
+button{
+	width: 80%;
+	height: 60rpx;
+	margin: 160rpx auto 40rpx;
+}
+.list{
+	border-top: solid 1rpx #F2F2F2;
+	padding-left: 30rpx;
+	padding-right: 30rpx;
+	height: 80rpx;
+	line-height: 80rpx;
+}

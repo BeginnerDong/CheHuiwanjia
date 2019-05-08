@@ -1,7 +1,7 @@
 <view class="top bg3">
 	<view class="top_top" style="line-height: 140rpx;">
-		<view class="ilblock flo-right color5 font24" 
-		style="height: 100%;margin-right: 30rpx;background: url(../../images/about-icon2.png) no-repeat 6rpx 10rpx;background-size: 70%; ">
+		<view class="ilblock flo-right color5 font24" bindtap="intoPathRedirect" data-path="/pages/message/message"
+		style="height: 100%;margin-right: 30rpx;background: url(../../images/about-icon2.png) no-repeat 6rpx 10rpx;background-size: 70%;" bindtap="show" >
 			消息
 		</view>
 		<view class="ilblock flo-right color5 font24" 
@@ -17,45 +17,45 @@
 <view class="list radiu15">
 	<view class="bag">
 		<view class="bagtext ilblock color1 font30">今日爆款</view>
-		<view class="more ilblock color3" bindtap="intoPath" data-path="/pages/subscribe_a/subscribe_a" style="background: url(../../images/home-icon2.png) no-repeat 110rpx 31rpx;background-size: 10%; ">查看更多</view>
+		<view class="more ilblock color3" bindtap="intoPathRedirect" data-path="/pages/allOder/allOder" style="background: url(../../images/home-icon2.png) no-repeat 110rpx 31rpx;background-size: 10%; ">查看更多</view>
 	</view>
-	<view class="list_item">
+	<view class="list_item" bindtap="intoPathRedirect" data-path="/pages/allOder/allOder">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon3.png"></image>
 		</view>
 		<view class="font24 color2 list_itemText">待付款</view>
 	</view>
-	<view class="list_item">
+	<view class="list_item" bindtap="intoPathRedirect" data-path="/pages/allOder/allOder">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon4.png"></image>
 		</view>
 		<view class="font24 color2 list_itemText">待自提</view>
 	</view>
-	<view class="list_item">
+	<view class="list_item" bindtap="intoPathRedirect" data-path="/pages/allOder/allOder">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon5.png"></image>
 		</view>
 		<view class="font24 color2 list_itemText">待发货</view>
 	</view>
-	<view class="list_item">
+	<view class="list_item" bindtap="intoPathRedirect" data-path="/pages/allOder/allOder">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon6.png"></image>
 		</view>
 		<view class="font24 color2 list_itemText">待收货</view>
 	</view>
-	<view class="list_item">
+	<view class="list_item" bindtap="intoPathRedirect" data-path="/pages/allOder/allOder">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon7.png"></image>
 		</view>
 		<view class="font24 color2 list_itemText">已收货</view>
 	</view>
-	<view class="list_item">
+	<view class="list_item" bindtap="intoPathRedirect" data-path="/pages/allOder/allOder">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon8.png"></image>
 		</view>
 		<view class="font24 color2 list_itemText">售后</view>
 	</view>
-	<view class="list_item">
+	<view class="list_item" bindtap="intoPathRedirect" data-path="/pages/right/right">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon9.png"></image>
 		</view>
@@ -64,19 +64,19 @@
 	<view style="width: 100%; clear: both;"></view>
 </view>
 <view class="list2 radiu15">
-	<view class="list_item">
+	<view class="list_item" bindtap="intoPathRedirect" data-path="/pages/login/login">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon10.png"></image>
 		</view>
 		<view class="font24 color2 list_itemText">合伙人</view>
 	</view>
-	<view class="list_item">
+	<view class="list_item" bindtap="intoPathRedirect" data-path="/pages/floor/floor">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon11.png"></image>
 		</view>
 		<view class="font24 color2 list_itemText">楼主</view>
 	</view>
-	<view class="list_item">
+	<view class="list_item" bindtap="intoPathRedirect" data-path="/pages/login_c/login_c">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon12.png"></image>
 		</view>
@@ -84,26 +84,26 @@
 	</view>
 	<view style="width: 100%; clear: both;"></view>
 </view>
-<view class="list radiu15" style="margin-top: 60rpx;">
-	<view class="list_item">
+<view class="list radiu15" style="margin-top: 60rpx; ">
+	<view class="list_item" bindtap="intoPathRedirect" data-path="/pages/address/address">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon13.png"></image>
 		</view>
 		<view class="font24 color2 list_itemText">地址管理</view>
 	</view>
-	<view class="list_item">
+	<view class="list_item" bindtap="intoPathRedirect" data-path="/pages/myscore/myscore">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon14.png"></image>
 		</view>
 		<view class="font24 color2 list_itemText">我的积分</view>
 	</view>
-	<view class="list_item">
+	<view class="list_item" bindtap="intoPathRedirect" data-path="/pages/car/car">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon15.png"></image>
 		</view>
 		<view class="font24 color2 list_itemText">购物车</view>
 	</view>
-	<view class="list_item">
+	<view class="list_item"  bindtap="intoPathRedirect" data-path="/pages/feedback/feedback">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon16.png"></image>
 		</view>
@@ -112,82 +112,20 @@
 	<view style="width: 100%; clear: both;"></view>
 </view>
 <view style="width: 100%; height: 90rpx;"></view>
-<!-- <view class="list bg1" style="margin-top: 10rpx;" bindtap="intoPathRedirect" data-path="/pages/allOder/allOder">
-	<view class="ilblock color1 font30">我的订单</view>
-	<view class="color2 font24 flo-right">查看
-	 <image src="../../images/home-icon5.png" style="width: 12rpx; height: 21rpx;margin-left: 10rpx;"></image>
-	 </view>
+
+
+<view class="secceed" wx:if="{{is_show}}">
+	<view style="width: 80%;margin:30% 10%;height: 40%; background: url(../../images/about-img2.png) no-repeat; background-size: 100%;">
+		<view class="font26 color6 text">您获得了10个积分</view>
+	</view>
+	<view style="text-align: center;">
+		<image src="../../images/anout-20.png" style="width: 40rpx; height: 40rpx;" bindtap="show"></image>
+	</view>
+	
 </view>
 
-<view class="cherose bg1">
-	<view class="cherose-item flo-left" bindtap="intoPathRedirect" data-path="/pages/allOder/allOder">
-		<view class="cherose-itemimg">
-			<image src="../../images/about-icon1.png"></image>
-		</view>
-		<view class="color3 font24">待支付</view>
-	</view>
-	<view class="cherose-item flo-left" bindtap="intoPathRedirect" data-path="/pages/allOder/allOder">
-		<view class="cherose-itemimg">
-			<image src="../../images/about-icon2.png"></image>
-		</view>
-		<view class="color3 font24">待发货</view>
-	</view>
-	<view class="cherose-item flo-left" bindtap="intoPathRedirect" data-path="/pages/allOder/allOder">
-		<view class="cherose-itemimg">
-			<image src="../../images/about-icon3.png"></image>
-		</view>
-		<view class="color3 font24">待收货</view>
-	</view>
-	<view class="cherose-item flo-left" bindtap="intoPathRedirect" data-path="/pages/allOder/allOder">
-		<view class="cherose-itemimg">
-			<image src="../../images/about-icon4.png" style="width: 45rpx;"></image>
-		</view>
-		<view class="color3 font24">已完成</view>
-	</view>
-	<view class="cherose-item flo-left" bindtap="intoPathRedirect" data-path="/pages/allOder/allOder">
-		<view class="cherose-itemimg">
-			<image src="../../images/about-icon5.png" style="width: 45rpx;"></image>
-		</view>
-		<view class="color3 font24">已取消</view>
-	</view>
-</view>
 
-<view class="list bg1" style="margin-top: 10rpx;" bindtap="intoPathRedirect" data-path="/pages/myflowerbag/myflowerbag">
-	<view class="ilblock listimg">
-		<image src="../../images/about-icon6.png"></image>
-	</view>
-	<view class="ilblock color1 font30">我的鲜花包</view>
-	<view class="color2 font24 flo-right">
-	 <image src="../../images/home-icon5.png" style="width: 12rpx; height: 21rpx;margin-left: 10rpx;"></image>
-	 </view>
-</view>
-<view class="list bg1"  bindtap="intoPathRedirect" data-path="/pages/myscore/myscore">
-	<view class="ilblock listimg">
-		<image src="../../images/about-icon7.png"></image>
-	</view>
-	<view class="ilblock color1 font30">我的积分</view>
-	<view class="color2 font24 flo-right">
-	 <image src="../../images/home-icon5.png" style="width: 12rpx; height: 21rpx;margin-left: 10rpx;"></image>
-	 </view>
-</view>
-<view class="list bg1"  bindtap="intoPathRedirect" data-path="/pages/address/address">
-	<view class="ilblock listimg">
-		<image src="../../images/about-icon8.png"></image>
-	</view>
-	<view class="ilblock color1 font30">地址管理</view>
-	<view class="color2 font24 flo-right">
-	 <image src="../../images/home-icon5.png" style="width: 12rpx; height: 21rpx;margin-left: 10rpx;"></image>
-	 </view>
-</view>
-<view class="list bg1"  bindtap="intoPathRedirect" data-path="/pages/feedback/feedback">
-	<view class="ilblock listimg">
-		<image src="../../images/about-icon9.png"></image>
-	</view>
-	<view class="ilblock color1 font30">意见反馈</view>
-	<view class="color2 font24 flo-right">
-	 <image src="../../images/home-icon5.png" style="width: 12rpx; height: 21rpx;margin-left: 10rpx;"></image>
-	 </view>
-</view> -->
+
 <view class="navbar">
 	<view class="navbar_item" bindtap="intoPathRedirect" data-path="/pages/index/index">
 		<view class="nav_img">

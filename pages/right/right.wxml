@@ -1,0 +1,13 @@
+<view class="w700">
+	<view class="color1 font28 text_title overflow1">
+		标题标题标题标题标题标题标题标题
+	</view>
+	<view class="text color2 font26">
+		1.内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容
+	</view><view class="text color2 font26">
+		2.内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容
+	</view>
+	<view class="text color2 font26">
+		3.内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容
+	</view>
+</view>

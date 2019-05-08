@@ -6,11 +6,15 @@ const token = new Token();
 
 Page({
   data: {
-    
+		is_show:false
   },
   onLoad: function () {
-    
+    const self=this;
+		self.data.is_show=!self.data.is_show;
   },
+	show(e){
+		
+	},
 	intoPathRedirect(e){
 	  const self = this;
 	  api.pathTo(api.getDataSet(e,'path'),'redi');

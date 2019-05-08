@@ -34,7 +34,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 44,
+			"current": 67,
 			"list": [
 				{
 					"id": -1,
@@ -303,7 +303,145 @@
 				{
 					"id": -1,
 					"name": "我的",
-					"pathName": "pages/user/user"
+					"pathName": "pages/user/user",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的订单",
+					"pathName": "pages/allOder/allOder",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "维权",
+					"pathName": "pages/right/right",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "地址管理",
+					"pathName": "pages/address/address",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "地址+",
+					"pathName": "pages/address_Add/address_Add",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "消息",
+					"pathName": "pages/message/message",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的积分",
+					"pathName": "pages/myscore/myscore",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的购物订单",
+					"pathName": "pages/car-true/car-true",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "客服",
+					"pathName": "pages/feedback/feedback",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "登录a",
+					"pathName": "pages/login/login",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "合伙人",
+					"pathName": "pages/suggestion/suggestion",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的团队",
+					"pathName": "pages/team_a/team_a",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "收益1",
+					"pathName": "pages/income_a/income_a",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "提现",
+					"pathName": "pages/money/money",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "绑定银行卡",
+					"pathName": "pages/bind_card/bind_card",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "提现2",
+					"pathName": "pages/money_b/money_b",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "推广",
+					"pathName": "pages/two_code/two_code",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "我的团队2",
+					"pathName": "pages/team_floor/team_floor",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "二维码",
+					"pathName": "pages/two_code_floor/two_code_floor",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "司机",
+					"pathName": "pages/driver/driver",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "接单",
+					"pathName": "pages/driver_oder/driver_oder",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "司机订单",
+					"pathName": "pages/drive_allOder/drive_allOder",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "司机消息",
+					"pathName": "pages/driver_mesag/driver_mesag",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "申请",
+					"pathName": "pages/requisition/requisition"
 				}
 			]
 		}

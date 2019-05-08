@@ -8,7 +8,7 @@
 	margin: 0 38%;
 	line-height: 55rpx;
 	text-align: center;
-	margin-top: 140rpx;
+	margin-top: 200rpx;
 }
 .top image{
 	height: 160rpx;

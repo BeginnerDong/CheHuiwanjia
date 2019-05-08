@@ -1,0 +1,157 @@
+<!--logs.wxml-->
+<view class="topnav bg1">
+	<view class="top-item  {{currentId == 0?'itemstar':''}}" data-id="0" bindtap="tabs">
+		待配送
+	</view>
+	<view class="top-item {{currentId == 1?'itemstar':''}}" data-id="1" bindtap="tabs">
+		以配送
+	</view>
+	<view class="top-item {{currentId == 2?'itemstar':''}}" data-id="2" bindtap="tabs">
+		已完成
+	</view>
+	<view class="top-item {{currentId == 3?'itemstar':''}}" data-id="3" bindtap="tabs">
+		代取件
+	</view>
+	<view class="top-item {{currentId == 4?'itemstar':''}}" data-id="4" bindtap="tabs">
+		已取件
+	</view>
+	<view class="top-item {{currentId == 5?'itemstar':''}}" data-id="5" bindtap="tabs">
+		待核销
+	</view>
+	
+</view>
+<view style="{{currentId == 0?'display:block':'display:none'}}">
+	
+	<view class="bigbox bg1">
+		<view class="font24" style="height: 100rpx; line-height: 100rpx;">
+			<view class="color3 ilblock" style="margin-left: 30rpx;">交易时间：2018-08-30</view>
+			<view class="color4 ilblock flo-right" style="margin-right: 30rpx;">等待配送</view>
+		</view>
+		<view class="ilblock box">
+			<image src="../../images/home-img3.png"></image>
+		</view>
+		<view class="ilblock flo-right" style="height: 46%;width: 54%;margin-right: 5%;">
+			<view class="color1 font26 name overflow2">标题标题标题标题题标题标题标题标题标题</view>
+			<view class="bg2 color3 font20" style="width: 100rpx; height: 40rpx;text-align: center; line-height: 40rpx; margin-top: 16rpx;margin-bottom: 16rpx;">
+				大束
+			</view>
+			<view class="color4 font26" style="margin-top: 32rpx;">￥59.00</view>
+		</view>
+		<view class="addres color2 font24 overflow1" style="background: url(../../images/order-icon.png) no-repeat; background-size: 4%;">
+			陕西省西安市雁塔区高新大都会
+		</view>
+		<view class="font24 color3" style="margin-top:15rpx; margin-right: 30rpx;">
+			<view class="box-btm ilblock flo-right">已经配送</view>
+		</view>
+	</view>
+	
+	<view class="bigbox bg1" style="height: 410rpx;">
+		<view class="font24" style="height: 100rpx; line-height: 100rpx;">
+			<view class="color3 ilblock" style="margin-left: 30rpx;">交易时间：2018-08-30</view>
+			<view class="color4 ilblock flo-right" style="margin-right: 30rpx;">已经配送</view>
+		</view>
+		<view class="ilblock box">
+			<image src="../../images/home-img3.png"></image>
+		</view>
+		<view class="ilblock flo-right" style="height: 46%;width: 54%;margin-right: 5%;">
+			<view class="color1 font26 name overflow2">标题标题标题标题题标题标题标题标题标题</view>
+			<view class="bg2 color3 font20" style="width: 100rpx; height: 40rpx;text-align: center; line-height: 40rpx; margin-top: 16rpx;margin-bottom: 16rpx;">
+				大束
+			</view>
+			<view class="color4 font26" style="margin-top: 32rpx;">￥59.00</view>
+		</view>
+		<view class="addres color2 font24 overflow1" style="background: url(../../images/order-icon.png) no-repeat; background-size: 4%;">
+			陕西省西安市雁塔区高新大都会
+		</view>
+	</view>
+	
+	<view class="bigbox bg1" style="height: 410rpx;">
+		<view class="font24" style="height: 100rpx; line-height: 100rpx;">
+			<view class="color3 ilblock" style="margin-left: 30rpx;">交易时间：2018-08-30</view>
+			<view class="color4 ilblock flo-right" style="margin-right: 30rpx;">已经完成</view>
+		</view>
+		<view class="ilblock box">
+			<image src="../../images/home-img3.png"></image>
+		</view>
+		<view class="ilblock flo-right" style="height: 46%;width: 54%;margin-right: 5%;">
+			<view class="color1 font26 name overflow2">标题标题标题标题题标题标题标题标题标题</view>
+			<view class="bg2 color3 font20" style="width: 100rpx; height: 40rpx;text-align: center; line-height: 40rpx; margin-top: 16rpx;margin-bottom: 16rpx;">
+				大束
+			</view>
+			<view class="color4 font26" style="margin-top: 32rpx;">￥59.00</view>
+		</view>
+		<view class="addres color2 font24 overflow1" style="background: url(../../images/order-icon.png) no-repeat; background-size: 4%;">
+			陕西省西安市雁塔区高新大都会
+		</view>
+	</view>
+	
+	<view class="bigbox bg1">
+		<view class="font24" style="height: 100rpx; line-height: 100rpx;">
+			<view class="color3 ilblock" style="margin-left: 30rpx;">交易时间：2018-08-30</view>
+			<view class="color4 ilblock flo-right" style="margin-right: 30rpx;">等待取件</view>
+		</view>
+		<view class="ilblock box">
+			<image src="../../images/home-img3.png"></image>
+		</view>
+		<view class="ilblock flo-right" style="height: 46%;width: 54%;margin-right: 5%;">
+			<view class="color1 font26 name overflow2">标题标题标题标题题标题标题标题标题标题</view>
+			<view class="bg2 color3 font20" style="width: 100rpx; height: 40rpx;text-align: center; line-height: 40rpx; margin-top: 16rpx;margin-bottom: 16rpx;">
+				大束
+			</view>
+			<view class="color4 font26" style="margin-top: 32rpx;">￥59.00</view>
+		</view>
+		<view class="addres color2 font24 overflow1" style="background: url(../../images/order-icon.png) no-repeat; background-size: 4%;">
+			陕西省西安市雁塔区高新大都会
+		</view>
+		<view class="font24 color3" style="margin-top:15rpx; margin-right: 30rpx;">
+			<view class="box-btm ilblock flo-right">已经取件</view>
+		</view>
+	</view>
+	
+	<view class="bigbox bg1" style="height: 410rpx;">
+		<view class="font24" style="height: 100rpx; line-height: 100rpx;">
+			<view class="color3 ilblock" style="margin-left: 30rpx;">交易时间：2018-08-30</view>
+			<view class="color4 ilblock flo-right" style="margin-right: 30rpx;">已经取件</view>
+		</view>
+		<view class="ilblock box">
+			<image src="../../images/home-img3.png"></image>
+		</view>
+		<view class="ilblock flo-right" style="height: 46%;width: 54%;margin-right: 5%;">
+			<view class="color1 font26 name overflow2">标题标题标题标题题标题标题标题标题标题</view>
+			<view class="bg2 color3 font20" style="width: 100rpx; height: 40rpx;text-align: center; line-height: 40rpx; margin-top: 16rpx;margin-bottom: 16rpx;">
+				大束
+			</view>
+			<view class="color4 font26" style="margin-top: 32rpx;">￥59.00</view>
+		</view>
+		<view class="addres color2 font24 overflow1" style="background: url(../../images/order-icon.png) no-repeat; background-size: 4%;">
+			陕西省西安市雁塔区高新大都会
+		</view>
+	</view>
+	
+	<view class="bigbox bg1">
+		<view class="font24" style="height: 100rpx; line-height: 100rpx;">
+			<view class="color3 ilblock" style="margin-left: 30rpx;">交易时间：2018-08-30</view>
+			<view class="color4 ilblock flo-right" style="margin-right: 30rpx;">已经核销</view>
+		</view>
+		<view class="ilblock box">
+			<image src="../../images/home-img3.png"></image>
+		</view>
+		<view class="ilblock flo-right" style="height: 46%;width: 54%;margin-right: 5%;">
+			<view class="color1 font26 name overflow2">标题标题标题标题题标题标题标题标题标题</view>
+			<view class="bg2 color3 font20" style="width: 100rpx; height: 40rpx;text-align: center; line-height: 40rpx; margin-top: 16rpx;margin-bottom: 16rpx;">
+				大束
+			</view>
+			<view class="color4 font26" style="margin-top: 32rpx;">￥59.00</view>
+		</view>
+		<view class="addres color2 font24 overflow1" style="background: url(../../images/order-icon.png) no-repeat; background-size: 4%;">
+			陕西省西安市雁塔区高新大都会
+		</view>
+		<view class="font24 color3" style="margin-top:15rpx; margin-right: 30rpx;">
+			<view class="box-btm ilblock flo-right">已经核销</view>
+			<view class="box-btm ilblock flo-right color6 overflow1" style="margin-right: 30rpx; border: none; width: 200rpx;">核销码：5612</view>
+		</view>
+	</view>
+	
+	
+</view>
+

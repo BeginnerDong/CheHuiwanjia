@@ -1,0 +1,75 @@
+<view class="bg1">
+	<view class="nav color3 font30">
+		<view class="ilblock flo-left star">待审核</view>
+		<view class="ilblock flo-right">已审核</view>
+	</view>
+	<view style="clear: both; width: 100%;"></view>
+	<view style="display: none;">
+		<view class="list flo-left">
+			<view class="ilblock img radiu50 hiden">
+				<image src="../../images/about-img.png"></image>
+			</view>
+			<view class="text color1 font28 ilblock overflow1">
+				名称名称
+			</view>
+		</view>
+		<view class="list flo-left">
+			<view class="ilblock img radiu50 hiden">
+				<image src="../../images/about-img.png"></image>
+			</view>
+			<view class="text color1 font28 ilblock overflow1">
+				名称名称
+			</view>
+		</view>
+		<view class="list flo-left">
+			<view class="ilblock img radiu50 hiden">
+				<image src="../../images/about-img.png"></image>
+			</view>
+			<view class="text color1 font28 ilblock overflow1">
+				名称名称
+			</view>
+		</view>
+		<view class="list flo-left">
+			<view class="ilblock img radiu50 hiden">
+				<image src="../../images/about-img.png"></image>
+			</view>
+			<view class="text color1 font28 ilblock overflow1">
+				名称名称
+			</view>
+		</view>
+	</view>
+	
+	
+	<view>
+		<view class="list2">
+			<view class="ilblock img radiu50 hiden">
+				<image src="../../images/about-img.png"></image>
+			</view>
+			<view class="text color1 font28 ilblock overflow1">
+				名称名称
+			</view>
+			<view class="ilblock color6 font24 flo-right text2 overflow1">业绩:2353</view>
+		</view>
+		<view class="list2">
+			<view class="ilblock img radiu50 hiden">
+				<image src="../../images/about-img.png"></image>
+			</view>
+			<view class="text color1 font28 ilblock overflow1">
+				名称名称
+			</view>
+			<view class="ilblock color6 font24 flo-right text2 overflow1">业绩:2353</view>
+		</view>
+		<view class="list2">
+			<view class="ilblock img radiu50 hiden">
+				<image src="../../images/about-img.png"></image>
+			</view>
+			<view class="text color1 font28 ilblock overflow1">
+				名称名称
+			</view>
+			<view class="ilblock color6 font24 flo-right text2 overflow1">业绩:2353</view>
+		</view>
+	</view>
+	
+	
+	<view style="clear: both; width: 100%;"></view>
+</view>

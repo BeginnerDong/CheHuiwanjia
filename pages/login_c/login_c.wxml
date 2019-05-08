@@ -1,0 +1,23 @@
+<view class="top">
+	<image src="../../images/login-img%20.png"></image>
+</view>
+<view class="mess">
+	<view class="iput">
+		<view class="ilblock img">
+			<image src="../../images/login-icon1.png"></image>
+		</view>
+		<view class="ilblock text color3 font26">
+			<input placeholder="请输入手机号" style="height: 100%;"/>
+		</view>
+	</view>
+	<view class="iput">
+		<view class="ilblock img">
+			<image src="../../images/login-icon2.png" style="height:36rpx; top: 30rpx;"></image>
+		</view>
+		<view class="ilblock text color3 font26">
+			<input placeholder="请输入登录密码" style="height: 100%;"/>
+		</view>
+	</view>
+	<button class="bg3 color5 radiu15 font24" style="height: 70rpx;margin-top: 180rpx;"
+		bindtap="intoPathRedirect" data-path="/pages/driver/driver">登录</button>
+</view>

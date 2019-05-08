@@ -15,9 +15,6 @@
 			<view class="ilblock font22 color3" style="margin-left: 30rpx;position: relative;top: -6rpx;">
 				陕西省西安市雁塔区高新大都会
 			</view>
-			<view class="ilblock flo-right" style="margin-top: 20rpx;">
-				<image src="../../images/home-icon5.png" style="width: 14rpx; height: 24rpx;"></image>
-			</view>
 		</view>
 		<view class="list" style="margin-top: 0rpx;">
 			<view class="color1 font26 ilblock">

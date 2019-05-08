@@ -1,0 +1,29 @@
+page{
+	background: #F2F2F2;
+}
+.bg1{
+	width: 90%;
+	margin: 5%;
+	box-sizing: border-box;
+	box-shadow:0rpx 0rpx 20rpx #B9B9B9;
+}
+.top{
+	height: 100rpx;
+	line-height: 100rpx;
+	padding-left: 30rpx;
+	padding-right: 30rpx;
+}
+.btm{
+	margin-top: 160rpx;
+	padding: 30rpx;
+	
+}
+.list{
+	width: 100%;
+	border-bottom: solid 1rpx #E3E3E3;
+	height: 100rpx;
+	margin: 20rpx 0rpx 20rpx;
+	font-size: 30rpx;
+	line-height: 110rpx;
+}
+
