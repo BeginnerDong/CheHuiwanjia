@@ -34,7 +34,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 67,
+			"current": 68,
 			"list": [
 				{
 					"id": -1,
@@ -441,7 +441,13 @@
 				{
 					"id": -1,
 					"name": "申请",
-					"pathName": "pages/requisition/requisition"
+					"pathName": "pages/requisition/requisition",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "dizhi",
+					"pathName": "pages/address_Add/address_Add"
 				}
 			]
 		}
