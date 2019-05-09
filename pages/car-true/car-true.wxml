@@ -8,7 +8,7 @@
 			<view class="buybtm-norms norms-star font24 color3">5斤装</view>
 			<view class="color4 font26"style="margin-top: 30rpx;">￥56.00</view>
 		</view>
-		<view class="list" style="clear: both;" bindtap="intoPathRedirect" data-path="/pages/address/address">
+		<view class="list" style="clear: both;" bindtap="intoPath" data-path="/pages/address/address">
 			<view class="color1 font24 ilblock flo-left" style="margin-top: 20rpx;">
 				<view class="ran ilblock radiu50 bg3"></view>
 				上门自提
@@ -18,7 +18,7 @@
 				送货到家
 			</view>
 		</view>
-		<view class="list" style="clear: both;" bindtap="intoPathRedirect" data-path="/pages/address/address">
+		<view class="list" style="clear: both;" bindtap="intoPath" data-path="/pages/address/address">
 			<view class="color1 font26 ilblock flo-left" style="margin-top: 20rpx;">
 				取货点
 			</view>
@@ -26,7 +26,7 @@
 				陕西省西安市雁塔区高新大都会
 			</view>
 		</view>
-		<view class="list" style="clear: both; height: 100rpx;" bindtap="intoPathRedirect" data-path="/pages/address/address">
+		<view class="list" style="clear: both; height: 100rpx;" bindtap="intoPath" data-path="/pages/address/address">
 			<view class="color1 font26 ilblock flo-left" >
 				收货地址
 			</view>

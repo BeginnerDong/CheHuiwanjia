@@ -12,7 +12,7 @@
 		</view>
 		<view style="clear: both; width: 100%;"></view>
 	</view>
-	<view class="list">
+	<view class="list" bindtap="intoPath" data-path="/pages/logs_store_details/logs_store_details">
 		<view class="ilblock list-img radiu15 flo-left">
 			<image src="../../images/home-img2.png"></image>
 		</view>
@@ -40,7 +40,7 @@
 		</view>
 		<view class="text">分类</view>
 	</view>
-	<view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/logs/logs">
+	<view class="navbar_item">
 		<view class="nav_img this-img">
 			<image src="../../images/nabar3-a.png" style="width: 44rpx;"></image>
 		</view>

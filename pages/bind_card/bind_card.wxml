@@ -22,4 +22,4 @@
 </view>
 
 
-<button class="bg3 radiu40 font24 color5" style="line-height: 60rpx;" type="button" bindtap="intoPathRedirect" data-path="/pages/money_b/money_b">提交</button>
+<button class="bg3 radiu40 font24 color5" style="line-height: 60rpx;" type="button" bindtap="intoPath" data-path="/pages/money_b/money_b">提交</button>

@@ -1,11 +1,11 @@
 <view class="top bg3">
 	<view class="top_top" style="line-height: 140rpx;">
-		<view class="ilblock flo-right color5 font24" bindtap="intoPathRedirect" data-path="/pages/message/message"
-		style="height: 100%;margin-right: 30rpx;background: url(../../images/about-icon2.png) no-repeat 6rpx 10rpx;background-size: 70%;" bindtap="show" >
+		<view class="ilblock flo-right color5 font24" bindtap="intoPath" data-path="/pages/message/message"
+		style="height: 100%;margin-right: 30rpx;background: url(../../images/about-icon2.png) no-repeat 6rpx 10rpx;background-size: 70%;">
 			消息
 		</view>
 		<view class="ilblock flo-right color5 font24" 
-		style="height: 100%;margin-right: 60rpx;background: url(../../images/about-icon1.png) no-repeat 8rpx 12rpx;background-size: 73%; ">
+		style="height: 100%;margin-right: 60rpx;background: url(../../images/about-icon1.png) no-repeat 8rpx 12rpx;background-size: 73%;" bindtap="show">
 			签到
 		</view>
 	</view>
@@ -17,45 +17,45 @@
 <view class="list radiu15">
 	<view class="bag">
 		<view class="bagtext ilblock color1 font30">今日爆款</view>
-		<view class="more ilblock color3" bindtap="intoPathRedirect" data-path="/pages/allOder/allOder" style="background: url(../../images/home-icon2.png) no-repeat 110rpx 31rpx;background-size: 10%; ">查看更多</view>
+		<view class="more ilblock color3" bindtap="intoPath" data-path="/pages/allOder/allOder" style="background: url(../../images/home-icon2.png) no-repeat 110rpx 31rpx;background-size: 10%; ">查看更多</view>
 	</view>
-	<view class="list_item" bindtap="intoPathRedirect" data-path="/pages/allOder/allOder">
+	<view class="list_item" bindtap="intoPath" data-path="/pages/allOder/allOder">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon3.png"></image>
 		</view>
 		<view class="font24 color2 list_itemText">待付款</view>
 	</view>
-	<view class="list_item" bindtap="intoPathRedirect" data-path="/pages/allOder/allOder">
+	<view class="list_item" bindtap="intoPath" data-path="/pages/allOder/allOder">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon4.png"></image>
 		</view>
 		<view class="font24 color2 list_itemText">待自提</view>
 	</view>
-	<view class="list_item" bindtap="intoPathRedirect" data-path="/pages/allOder/allOder">
+	<view class="list_item" bindtap="intoPath" data-path="/pages/allOder/allOder">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon5.png"></image>
 		</view>
 		<view class="font24 color2 list_itemText">待发货</view>
 	</view>
-	<view class="list_item" bindtap="intoPathRedirect" data-path="/pages/allOder/allOder">
+	<view class="list_item" bindtap="intoPath" data-path="/pages/allOder/allOder">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon6.png"></image>
 		</view>
 		<view class="font24 color2 list_itemText">待收货</view>
 	</view>
-	<view class="list_item" bindtap="intoPathRedirect" data-path="/pages/allOder/allOder">
+	<view class="list_item" bindtap="intoPath" data-path="/pages/allOder/allOder">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon7.png"></image>
 		</view>
 		<view class="font24 color2 list_itemText">已收货</view>
 	</view>
-	<view class="list_item" bindtap="intoPathRedirect" data-path="/pages/allOder/allOder">
+	<view class="list_item" bindtap="intoPath" data-path="/pages/allOder/allOder">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon8.png"></image>
 		</view>
 		<view class="font24 color2 list_itemText">售后</view>
 	</view>
-	<view class="list_item" bindtap="intoPathRedirect" data-path="/pages/right/right">
+	<view class="list_item" bindtap="intoPath" data-path="/pages/right/right">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon9.png"></image>
 		</view>
@@ -64,19 +64,19 @@
 	<view style="width: 100%; clear: both;"></view>
 </view>
 <view class="list2 radiu15">
-	<view class="list_item" bindtap="intoPathRedirect" data-path="/pages/login/login">
+	<view class="list_item" bindtap="intoPath" data-path="/pages/login/login">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon10.png"></image>
 		</view>
 		<view class="font24 color2 list_itemText">合伙人</view>
 	</view>
-	<view class="list_item" bindtap="intoPathRedirect" data-path="/pages/floor/floor">
+	<view class="list_item" bindtap="intoPath" data-path="/pages/floor/floor">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon11.png"></image>
 		</view>
 		<view class="font24 color2 list_itemText">楼主</view>
 	</view>
-	<view class="list_item" bindtap="intoPathRedirect" data-path="/pages/login_c/login_c">
+	<view class="list_item" bindtap="intoPath" data-path="/pages/login_c/login_c">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon12.png"></image>
 		</view>
@@ -85,25 +85,25 @@
 	<view style="width: 100%; clear: both;"></view>
 </view>
 <view class="list radiu15" style="margin-top: 60rpx; ">
-	<view class="list_item" bindtap="intoPathRedirect" data-path="/pages/address/address">
+	<view class="list_item" bindtap="intoPath" data-path="/pages/address/address">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon13.png"></image>
 		</view>
 		<view class="font24 color2 list_itemText">地址管理</view>
 	</view>
-	<view class="list_item" bindtap="intoPathRedirect" data-path="/pages/myscore/myscore">
+	<view class="list_item" bindtap="intoPath" data-path="/pages/myscore/myscore">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon14.png"></image>
 		</view>
 		<view class="font24 color2 list_itemText">我的积分</view>
 	</view>
-	<view class="list_item" bindtap="intoPathRedirect" data-path="/pages/car/car">
+	<view class="list_item" bindtap="intoPath" data-path="/pages/car/car">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon15.png"></image>
 		</view>
 		<view class="font24 color2 list_itemText">购物车</view>
 	</view>
-	<view class="list_item"  bindtap="intoPathRedirect" data-path="/pages/feedback/feedback">
+	<view class="list_item"  bindtap="intoPath" data-path="/pages/feedback/feedback">
 		<view class="list_itemimg">
 			<image src="../../images/about-icon16.png"></image>
 		</view>
@@ -145,7 +145,7 @@
 		</view>
 		<view class="text">拼团</view>
 	</view>
-	<view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/user/user">
+	<view class="navbar_item">
 		<view class="nav_img this-img">
 			<image src="../../images/nabar4-a.png" style="height: 40rpx;"></image>
 		</view>

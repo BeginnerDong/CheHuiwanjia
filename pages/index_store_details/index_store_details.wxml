@@ -34,7 +34,7 @@
 <view class="w700">
 	<view class="bag">
 		<view class="bagtext ilblock color1 font30">商品评价</view>
-		<view class="more ilblock color3" bindtap="intoPath" data-path="/pages/subscribe_a/subscribe_a" style="background: url(../../images/home-icon2.png) no-repeat 110rpx 31rpx;background-size: 10%; ">查看更多</view>
+		<view class="more ilblock color3" style="background: url(../../images/home-icon2.png) no-repeat 110rpx 31rpx;background-size: 10%; ">查看更多</view>
 	</view>
 	<view class="list_item">
 		<view>
@@ -98,7 +98,7 @@
 				<view class="ilblock list-item">1</view>
 				<view class="ilblock list-item">+</view>
 			</view>
-				<button class="bg3" style="margin-top: 200rpx;"bindtap="intoPathRedirect" data-path="/pages/oder-true/oder-true">确定</button>	
+				<button class="bg3" style="margin-top: 200rpx;"bindtap="intoPath" data-path="/pages/oder-true/oder-true">确定</button>	
 		</view>
 	</view>
 </view>

@@ -10,17 +10,17 @@
 			<view class="color5 font24 overflow1" style="height: 50%; line-height: 45rpx;">15623456589</view>
 		</view>
 		<view class="ilblock flo-right" style="height: 100%;margin-right: 30rpx;" 
-		bindtap="intoPathRedirect" data-path="/pages/driver_mesag/driver_mesag">
+		bindtap="intoPath" data-path="/pages/driver_mesag/driver_mesag">
 			<image src="../../images/icon1.png" style="width: 35rpx;height: 35rpx;margin-top: 40rpx;"></image>
 		</view>
 	</view>
 </view>
 <view class="bag">
-	<view class="ilblock box flo-left" bindtap="intoPathRedirect" data-path="/pages/driver_oder/driver_oder">
+	<view class="ilblock box flo-left" bindtap="intoPath" data-path="/pages/driver_oder/driver_oder">
 		<image src="../../images/there-icon1.png"></image>
 		<view class="color2 font28 text">接单</view>
 	</view>
-	<view class="ilblock box flo-right" bindtap="intoPathRedirect" data-path="/pages/drive_allOder/drive_allOder">
+	<view class="ilblock box flo-right" bindtap="intoPath" data-path="/pages/drive_allOder/drive_allOder">
 		<image src="../../images/there-icon2.png" style="width:75rpx;margin-left: 95rpx;"></image>
 		<view class="color2 font28 text">我的订单</view>
 	</view>

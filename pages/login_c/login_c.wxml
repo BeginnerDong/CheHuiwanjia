@@ -19,5 +19,5 @@
 		</view>
 	</view>
 	<button class="bg3 color5 radiu15 font24" style="height: 70rpx;margin-top: 180rpx;"
-		bindtap="intoPathRedirect" data-path="/pages/driver/driver">登录</button>
+		bindtap="intoPath" data-path="/pages/driver/driver">登录</button>
 </view>

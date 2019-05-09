@@ -1,4 +1,4 @@
-<view class="top bg1 radiu15 font30" bindtap="intoPathRedirect" data-path="/pages/bind_card/bind_card">
+<view class="top bg1 radiu15 font30" bindtap="intoPath" data-path="/pages/bind_card/bind_card">
 	去绑定银行卡
 	<view class="ilblock flo-right">
 		<image src="../../images/home-icon2.png" style="width: 13rpx;height: 23rpx;"></image>

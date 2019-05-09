@@ -56,7 +56,7 @@
 		</view>
 		<view class="text">首页</view>
 	</view>
-	<view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/classify/classify">
+	<view class="navbar_item">
 		<view class="nav_img this-img">
 			<image src="../../images/nabar2-a.png"></image>
 		</view>

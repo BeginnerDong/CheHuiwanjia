@@ -128,7 +128,7 @@
 				<view class="ilblock list-item">1</view>
 				<view class="ilblock list-item">+</view>
 			</view>
-				<button class="bg3" style="margin-top: 200rpx;"bindtap="intoPathRedirect" data-path="/pages/oder-true_c/oder-true_c">确定</button>	
+				<button class="bg3" style="margin-top: 200rpx;"bindtap="intoPath" data-path="/pages/oder-true_c/oder-true_c">确定</button>	
 		</view>
 	</view>
 </view>
@@ -145,6 +145,6 @@
 				<image src="../../images/details-icon2.png"></image>
 			</view>
 		</view>
-		<button class="radiu15 bg3 color5 font26" style="width: 90%;margin-left: 5%; height: 70rpx;margin-top:35rpx;" bindtap="intoPathRedirect" data-path="/pages/oder-true_c/oder-true_c">去拼单</button>
+		<button class="radiu15 bg3 color5 font26" style="width: 90%;margin-left: 5%; height: 70rpx;margin-top:35rpx;" bindtap="intoPath" data-path="/pages/oder-true_c/oder-true_c">去拼单</button>
 	</view>
 </view>

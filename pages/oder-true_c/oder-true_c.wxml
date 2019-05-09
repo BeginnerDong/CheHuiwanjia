@@ -8,7 +8,7 @@
 			<view class="buybtm-norms norms-star font24 color3">5斤装</view>
 			<view class="color4 font26"style="margin-top: 30rpx;">团购价￥56.00</view>
 		</view>
-		<view class="list" style="clear: both;padding-top: 10rpx;" bindtap="intoPathRedirect" data-path="/pages/address/address">
+		<view class="list" style="clear: both;padding-top: 10rpx;">
 			<view class="color1 font26 ilblock flo-left" >
 				取货点
 			</view>

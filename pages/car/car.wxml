@@ -50,6 +50,6 @@
 	<view class="foot-right ilblock" style="position: relative; top: -50rpx;">
 		<view class="ilblock color1 font26">合计：<text class="color4">￥0.00</text></view>
 		<view class="ilblock bg3 color5 font28 radiu40" style="width: 140rpx;height: 70rpx; margin-left: 30rpx; text-align: center; line-height: 70rpx;"
-		bindtap="intoPathRedirect" data-path="/pages/car-true/car-true">结算</view>
+		bindtap="intoPath" data-path="/pages/car-true/car-true">结算</view>
 	</view>
 </view>
