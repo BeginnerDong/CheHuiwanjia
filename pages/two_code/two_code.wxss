@@ -8,3 +8,14 @@ button{
 	bottom: 50rpx;
 	left: 38%;
 }
+.code{
+	width:39%;
+	height: 290rpx;
+	position: absolute;
+	bottom: 22.5%;
+	left: 31%;
+}
+.code image{
+	width: 100%;
+	height: 100%;
+}

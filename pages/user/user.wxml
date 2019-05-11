@@ -74,7 +74,7 @@
 		<view class="list_itemimg">
 			<image src="../../images/about-icon11.png"></image>
 		</view>
-		<view class="font24 color2 list_itemText">楼主</view>
+		<view class="font24 color2 list_itemText">团长</view>
 	</view>
 	<view class="list_item" bindtap="intoPath" data-path="/pages/login_c/login_c">
 		<view class="list_itemimg">

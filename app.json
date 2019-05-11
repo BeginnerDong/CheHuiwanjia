@@ -7,10 +7,10 @@
 		"pages/oder-true_c/oder-true_c",
 		"pages/address/address",
 		"pages/address_Add/address_Add",
-    "pages/subscribe_a/subscribe_a",
-    "pages/subscribe_b/subscribe_b",
-    "pages/integral_store/integral_store",
-    "pages/logs/logs",
+		"pages/subscribe_a/subscribe_a",
+		"pages/subscribe_b/subscribe_b",
+		"pages/integral_store/integral_store",
+		"pages/logs/logs",
 		"pages/logs_store_details/logs_store_details",
 		"pages/classify/classify",
 		"pages/user/user",
@@ -37,9 +37,7 @@
 		"pages/driver_oder/driver_oder",
 		"pages/drive_allOder/drive_allOder",
 		"pages/driver_mesag/driver_mesag",
-		"pages/requisition/requisition",
-		"pages/requisition_floor/requisition_floor"
-		
+		"pages/requisition/requisition"
 		
   ],
   "window":{
